@@ -20,14 +20,17 @@ To install the GettextJson files in your application use the following generator
 
     ./script/generate gettext_json
 
-It will create two files :
+It will create three files :
 
     public/javascripts/gettext_json.js
     lib/js_parser.rb
+    lib/tasks/gettext_json.rake
 
 `gettext_json.js` is the GetText micro library for javascript. To use gettext_json you have to call this file from your layout.  
 
-`lib/js_parser.rb` is a Javascript gettext parser. To use it, require the file inn your rake tasks for gettext.
+`lib/js_parser.rb` is a Javascript gettext parser. To use it, require the file inn your rake tasks for gettext.  
+
+`lib/tasks/gettext_json.rake` contains the `makemo:json` rake task.
 
 For more informations, see [GetText micro library](http://wiki.github.com/simonc/rails_gettext_json/gettext-micro-library)
 and [Javascript parser](http://wiki.github.com/simonc/rails_gettext_json/javascript-parser) in the wiki.
@@ -49,7 +52,7 @@ To translate strings in your scripts, simply use the GetText micro library API :
     
     var str = GetText.t('Hello World');
     //=> "Bonjour le Monde"
- 
+
 ## Copyright
 
 Copyright (c) 2009 Simon COURTOIS, released under the MIT license

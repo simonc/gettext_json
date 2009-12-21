@@ -34,7 +34,7 @@ PKG_FILES = FileList[
 
 spec = Gem::Specification.new do |s|
   s.name = "gettext_json"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.author = "Simon COURTOIS"
   s.email = "happynoff@free.fr"
   s.homepage = "http://github.com/simonc/rails_gettext_json"

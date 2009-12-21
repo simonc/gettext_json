@@ -9,6 +9,8 @@ class GettextJsonGenerator < Rails::Generator::Base
       m.template 'gettext_json.js', File.join('public/javascripts', 'gettext_json.js')
       m.directory 'lib'
       m.template 'js_parser.rb', File.join('lib', 'js_parser.rb')
+      m.directory 'lib/tasks'
+      m.template 'gettext_json.rake', File.join('lib/tasks', 'gettext_json.rake')
     end
   end
 
