@@ -12,6 +12,14 @@ Or directly as a Rails plugin :
 
     ./script/plugin install git://github.com/simonc/rails_gettext_json.git
 
+Or as a dependency of your Rails app :
+
+    # config/environment.rb
+    config.gem "gettext_json", :version => ">= 0.0.2"
+    
+    # and then in the console
+    rake gems:install
+
 ## Usage
 
 ### Initialization
