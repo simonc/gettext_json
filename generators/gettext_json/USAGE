@@ -1,0 +1,8 @@
+Description:
+    Create the GetText javascript library
+
+Example:
+    ./script/generate gettext_json
+
+    This will create:
+        public/javascript/gettext_json.js
