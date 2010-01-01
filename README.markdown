@@ -10,7 +10,7 @@ GettextJson can be installed as a gem :
 
 Or directly as a Rails plugin :
 
-    ./script/plugin install git://github.com/simonc/rails_gettext_json.git
+    ./script/plugin install git://github.com/simonc/gettext_json.git
 
 Or as a dependency of your Rails app :
 
@@ -40,8 +40,8 @@ It will create three files :
 
 `lib/tasks/gettext_json.rake` contains the `makemo:json` rake task.
 
-For more informations, see [GetText micro library](http://wiki.github.com/simonc/rails_gettext_json/gettext-micro-library)
-and [Javascript parser](http://wiki.github.com/simonc/rails_gettext_json/javascript-parser) in the wiki.
+For more informations, see [GetText micro library](http://wiki.github.com/simonc/gettext_json/gettext-micro-library)
+and [Javascript parser](http://wiki.github.com/simonc/gettext_json/javascript-parser) in the wiki.
 
 ### Getting the translations
 
