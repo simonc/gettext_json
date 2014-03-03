@@ -1,3 +1,5 @@
+**ATTENTION:** This project is not maintained anymore.
+
 # GettextJson
 
 Rails plugin that make possible to use GetText ranslations in javascipt.
